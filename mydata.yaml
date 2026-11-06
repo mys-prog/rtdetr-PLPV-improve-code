@@ -1,0 +1,7 @@
+path: /home
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 9
+names: ['mistdefect', 'blackspot','polymistdefect', 'darkcorner', 'rectlowcell', 'fulllowcell', 'concentriccircle', 'crossmark', 'whitespot']
