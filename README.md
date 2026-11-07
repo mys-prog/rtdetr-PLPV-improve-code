@@ -35,6 +35,7 @@ PL-DETR/
 │   └── val.py
 │
 ├── README.md
+├── requirements.txt
 ```
 
 ## 3. Installation
@@ -148,10 +149,6 @@ Two pre-trained weight files (`best.pt`) are provided for downloading.
 
 Please download the corresponding checkpoint from the Releases page and place it in the appropriate directory before evaluation or inference.
 
-| Checkpoint | Description |
-|:---|:---|
-| best.pt | [Description to be added] |
-| best.pt | [Description to be added] |
 
 ## 9. Acknowledgements
 
