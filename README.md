@@ -136,9 +136,7 @@ Please download the corresponding checkpoint from the Releases page and place it
 
 ## 9. Acknowledgements
 
-This work is based on the RT-DETR framework.
-
-We sincerely acknowledge the authors of RT-DETR and the open-source community for their valuable contributions.
+This work is based on the RT-DETR framework. We sincerely thank the authors of RT-DETR for their pioneering work and valuable contributions. We also thank the Ultralytics team for providing the open-source implementation of YOLO/RT-DETR, as well as the authors of the PVEL-AD dataset for making their dataset publicly available. We acknowledge the broader open-source community for its valuable contributions to this work.
 
 
 ## 10. Contact
