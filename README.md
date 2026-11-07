@@ -1,4 +1,4 @@
-# rtdetr-PLPV-improve-code
+# rtdetr-PVPL-improve-code
 
 # PL-DETR: An Efficient Framework for Defect Detection in Solar Cell Photoluminescence Images
 
@@ -43,7 +43,7 @@ PL-DETR/
 Clone this repository:
 
 ```bash
-git clone https://github.com/mys-prog/rtdetr-PLPV-improve-code.git
+git clone https://github.com/mys-prog/rtdetr-PVPL-improve-code.git
 cd PL-DETR
 ```
 
