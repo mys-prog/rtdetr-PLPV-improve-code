@@ -23,7 +23,7 @@ PL-DETR/
 │
 ├── config/
 │   ├── PL-DETR.yaml
-│   └── mydata.yaml
+│   └── PVPLdata.yaml
 │
 ├── modules/
 │   ├── ACFP.py
@@ -59,22 +59,6 @@ Please ensure that the installed PyTorch and CUDA versions are compatible with y
 
 The dataset used in this study consists of nine defect categories in solar cell PL images.
 
-Organize your dataset in the following format:
-
-```text
-dataset/
-│
-├── images/
-│   ├── train/
-│   ├── val/
-│   └── test/
-│
-└── labels/
-    ├── train/
-    ├── val/
-    └── test/
-```
-
 Update the dataset paths and class information in:
 
 ```text
@@ -89,15 +73,15 @@ Please refer to this table when interpreting the experimental results and reprod
 
 | Class ID | Class Name in the Paper | Class Name in the Code |
 |:---:|:---|:---|
-| 0 |  |  |
-| 1 |  |  |
-| 2 |  |  |
-| 3 |  |  |
-| 4 |  |  |
-| 5 |  |  |
-| 6 |  |  |
-| 7 |  |  |
-| 8 |  |  |
+| 0 | clouding-defect | mistdefect |
+| 1 | black-spot | blackspot |
+| 2 | clustered-spot | polymistdefect |
+| 3 | dark-corner | darkcorner |
+| 4 | low-lifetime-Ⅰ | rectlowcell |
+| 5 | low-lifetime-Ⅱ | fulllowcell |
+| 6 | ring-artifact | concentriccircle |
+| 7 | cross-mark | crossmark |
+| 8 | bright-spot | whitespot |
 
 *Note: The class IDs follow the annotation order defined in the dataset configuration file.*
 
@@ -112,7 +96,7 @@ config/PL-DETR.yaml
 The dataset configuration is defined in:
 
 ```text
-config/mydata.yaml
+config/PVPLdata.yaml
 ```
 
 Before training or evaluation, please check the dataset paths, number of classes, and other configuration parameters.
@@ -156,20 +140,8 @@ This work is based on the RT-DETR framework.
 
 We sincerely acknowledge the authors of RT-DETR and the open-source community for their valuable contributions.
 
-## 10. Citation
 
-If you find this work useful in your research, please consider citing our paper:
+## 10. Contact
 
-```bibtex
-@article{PLDETR,
-  title   = {Your Paper Title},
-  author  = {Your Name},
-  journal = {Journal Name},
-  year    = {Year}
-}
-```
-
-## 11. Contact
-
-For questions or further information, please feel free to contact the corresponding author.
+For questions or further information, please feel free to contact the corresponding author:Y30240774@mail.ecust.edu.cn.
 
