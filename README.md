@@ -42,7 +42,7 @@ PL-DETR/
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/PL-DETR.git
+git clone https://github.com/mys-prog/rtdetr-PLPV-improve-code.git
 cd PL-DETR
 ```
 
